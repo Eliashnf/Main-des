@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Cards from '../components/Cards';
 
-function Features() {
+const Features = () => {
   return (
-    <div>Features</div>
-  )
-}
+    <div>
+      <Cards/>
+    </div>
+  );
+};
 
-export default Features
+export default Features;
